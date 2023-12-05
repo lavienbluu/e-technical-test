@@ -9,16 +9,23 @@
 
 ## Instruction
 1. Create Database by using mariaDB
+  * Paste dimensions.sql which in the SQL scripts folder to create dimensions database
+  * Paste sales.sql which in the SQL scripts folder to create dimensions database
 
-2. Paste a SQL script to create a star schema in mariaDB in the query box of database
-  * Run audit_table.sql in the SQL scripts folder
-  * Run customer_referential.sql in the SQL scripts folder
-  * Run items_referential.sql in the SQL scripts folder
-  * Run order_header.sql in the SQL scripts folder
-  * Run order_lines.sql in the SQL scripts folder
+3. Paste all SQL scripts below to create a star schema in mariaDB in the query box of database
+  * Run audit_table.sql which in the SQL scripts folder
+  * Run customer_referential.sql which in the SQL scripts folder
+  * Run items_referential.sql which in the SQL scripts folder
+  * Run order_header.sql which in the SQL scripts folder
+  * Run order_lines.sql which in the SQL scripts folder
 
-3. Run a Python script in VSCode to upload day1 and day2 to database
+4. Paste all SQL scripts below to create a data mart in the mariaDB in the query box of database
+  * Run dimensions.customers.sql which in the SQL scripts folder
+  * Run dimensions.items.sql which in the SQL scripts folder
+  * Run dimensions.orders.sql which in the SQL scripts folder
+
+5. Run a Python script in VSCode to upload day1 and day2 to database
   * Run batch_ingestion_day1.py
   * Run batch_ingestion_day2.py
 
-4. 
+6. The output files are in parquet_files
