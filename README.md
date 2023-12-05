@@ -29,4 +29,5 @@
   * Run batch_ingestion_day2.py
 
 6. The output files are in parquet_files folder by
-  * Run export_to_parquet_dimensions.py 
+  * Run export_to_parquet_dimensions.py
+  * Run export_to_parquet_sales.py
