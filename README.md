@@ -1,11 +1,11 @@
-# Technical Test with Essilor
+# Technical Test with Essilor Done by Thanadon Pitakwarin
 
 ## Requirement Files
-1. SQL script✅
+1. SQL script
 2. Python script
 3. Output file
 4. Unit Test
-5. Instruction to Execute✅
+5. Instruction to Execute
 
 ## Instruction
 1. Create Database by using mariaDB
