@@ -23,6 +23,7 @@
   * Run dimensions.customers.sql which in the SQL scripts folder
   * Run dimensions.items.sql which in the SQL scripts folder
   * Run dimensions.orders.sql which in the SQL scripts folder
+  * Run sales.salehistory.sql which in the SQL scripts folder
 
 5. Run a Python script in VSCode to upload day1 and day2 to database
   * Run batch_ingestion_day1.py
